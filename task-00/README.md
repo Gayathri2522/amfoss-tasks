@@ -1,5 +1,5 @@
 
-#Install Ubuntu 20.04 Desktop
+# Install Ubuntu 20.04 Desktop
 
 Link of my blog : [Click Here](https://dev.to/gayathri_25/instructions-to-install-ubuntu-alongside-windows-dual-boot-mode-4g3n)
 
