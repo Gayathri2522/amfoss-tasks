@@ -1,7 +1,7 @@
 
 # 1. Star all the amFOSS repositories
 
-This was an easy task.
+This was an easy task. I tried to understand the code in the script since I know JavaScript well. But I could not understand it completely. Looking forward to do amazing things like this💯.
 
 Screenshot:-
 
@@ -9,4 +9,4 @@ Screenshot:-
 
 
 
-Initially it took me some time to figure out how and where to run the code and when it ran it was satisfying to see all the repositories starred💯.
+
