@@ -1,0 +1,39 @@
+<html>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.5.0/Chart.min.js"></script>
+<body>
+  <script src="data.js"></script>
+<canvas id="myChart" style="width:100%;max-width:600px;margin-left: auto;margin-right: auto;"></canvas>
+
+<script>
+    const chart = getRandomJson()
+    var xValues = [chart[0].pizza,chart[1].pizza,chart[2].pizza,chart[3].pizza];
+    var yValues = [chart[0].sold,chart[1].sold,chart[2].sold,chart[3].sold];
+    var barColors = [
+  "rgba(0,0,255,1.0)",
+  "rgb(191, 64, 191)",
+  "green",
+  "yellow"
+];
+    new Chart("myChart", {
+  type: "pie",
+  data: {
+    labels: xValues,
+    datasets: [{
+      backgroundColor: barColors,
+      data: yValues
+    }]
+  },
+  options: {
+    title: {
+      display: true,
+      text: "Daily Pizza Sale Pie Chart"
+    }
+  }
+});
+</script>
+<script
+src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.js">
+</script>
+<canvas id="myChart" style="width:100%;max-width:600px"></canvas>
+</body>
+</html>
