@@ -1,0 +1,228 @@
+ *{
+     margin: 0;
+     padding: 0;
+     font-family: Georgia, 'Times New Roman', Times, serif;
+ }
+
+ .hero{
+     position: relative;
+     width: 100%;
+     height: 100vh;
+     background: #eff4fd;
+
+ }
+ nav{
+     display: flex;
+     width: 84%;
+     margin:auto;
+     padding: 20px 0;
+     align-items: center;
+     justify-content: space-between;
+ }
+
+ nav ul li{
+     display: inline-block;
+     list-style: none;
+     margin: 10px 20px;
+ }
+
+ nav ul li a{
+     text-decoration: none;
+     color: black;
+     font-weight: bold;
+ }
+ nav ul li a:hover{
+     color: blueviolet;
+ }
+ 
+ .state tr{
+    height: 165px;
+    text-align: center;
+}
+
+ .detail{
+     margin-left: 8%;
+     margin-top: 15%;
+ }
+
+ .detail h1{
+     font-size: 50px;
+     color: #473b3f;
+     margin-bottom: 20px;
+ }
+
+ .detail p{
+     color: #4c1e78;
+     font-size: large;
+ }
+ .detail a{
+     background: #331f26;
+     padding: 10px 18px;
+     text-decoration: none;
+     font-weight: bold;
+     color: #b3b3b4;
+     display: inline-block;
+     margin: 30px 0px;
+     border-radius: 5px;
+ }
+
+ .images{
+     width: 45%;
+     height: 80%;
+     position: absolute;
+     bottom: 0;
+     right: 100px;
+ }
+
+ .images img{
+     height: 100%;
+     position: absolute;
+     left: 50%;
+     bottom:0;
+     transform: translateX(-50%);
+     transition: bottom 1s, left 1s;
+ }
+ .images:hover .shape{
+     bottom: 40px;
+
+ }
+
+ .images:hover .myself{
+     left: 45%;
+ }
+
+ .wrapper ul {
+    list-style: none;
+  }
+  
+.wrapper ul li {
+    width: 75px;
+    height: 75px;
+    line-height: 25px;
+    margin: 0 10px;
+    text-align: center;
+    cursor: pointer;
+    border-radius:10%;
+    border: 5px solid #FFFFFF;
+    float: left;
+    transition: all 0.3s ease;
+  }
+  
+.wrapper ul li .fa {   
+    color: #FFFFFF;
+    margin-top: 18px;
+    transition: all 0.3s ease;
+  }
+  
+  /*facebook*/
+.wrapper ul li:hover.facebook {
+    border: 5px solid #3b5998;
+    box-shadow: 0 0 15px #3b5998;
+    transition: all 1s ease;
+  }
+  
+.wrapper ul li:hover .fa-facebook {
+    color: #3b5998;
+    text-shadow: 0 0 15px #3b5998;
+    transition: all 1s ease;
+  }
+  .wrapper ul li:hover .fa-github {
+    color: #3b5998;
+    text-shadow: 0 0 15px #3b5998;
+    transition: all 1s ease;
+  }
+  .wrapper ul li:hover .fa-linkedin {
+    color: #3b5998;
+    text-shadow: 0 0 15px #3b5998;
+    transition: all 1s ease;
+  }
+  
+  /*twitter*/
+.wrapper ul li:hover.twitter {
+    border: 5px solid #00aced;
+    box-shadow: 0 0 15px #00aced;
+    transition: all 1s ease;
+  }
+  
+.wrapper ul li:hover .fa-twitter {
+    color: #00aced;
+    text-shadow: 0 0 15px #00aced;
+    transition: all 1s ease;
+  }
+  
+  /* instagram */
+.wrapper ul li:hover.instagram {
+    border: 5px solid #bc2a8d;
+    box-shadow: 0 0 15px #bc2a8d;
+    transition: all 1s ease;
+  }
+  
+.wrapper ul li:hover .fa-instagram {
+    color: #bc2a8d;
+    text-shadow: 0 0 15px #bc2a8d;
+    transition: all 1s ease;
+  }
+  
+  /* google */
+.wrapper ul li:hover.google {
+    border: 5px solid #dd4b39;
+    box-shadow: 0 0 15px #dd4b39;
+    transition: all 1s ease;
+  }
+  
+.wrapper ul li:hover .fa-google {
+    color: #dd4b39;
+    text-shadow: 0 0 15px #dd4b39;
+    transition: all 1s ease;
+  }
+  
+  /* whatsapp */
+.wrapper ul li:hover.whatsapp {
+    border: 5px solid #4dc247;
+    box-shadow: 0 0 15px #4dc247;
+    transition: all 1s ease;
+  }
+  
+.wrapper ul li:hover .fa-whatsapp {
+    color: #4dc247;
+    text-shadow: 0 0 15px #4dc247;
+    transition: all 1s ease;
+}
+  
+.sub-col:hover .sub-text-top{
+    top: -200px;
+    padding-left: 170px;
+    padding-right: 170px;
+    padding-top: 50px; 
+    opacity: 1;
+    transition: 0.8s;
+
+}
+
+.main-two{
+  grid-row: 1/span 1;
+  grid-column: 2/span 1;
+}
+
+.main-two .p2{
+  font-size: 18px;
+  color:#FFEFCA;
+  opacity: 1;
+  position: absolute;
+
+  bottom: -200px;
+  text-align: center;
+  width: 60%;
+  margin: auto 20%;
+  line-height: 30px;
+  letter-spacing: 0.8px;
+  transition: 0.8s;
+  opacity: .5;
+}
+.main-two:hover .p2{
+  right: -21px;
+  bottom: 200px;
+  transition: 0.8s;
+  opacity: 1;
+  color: white;
+}
