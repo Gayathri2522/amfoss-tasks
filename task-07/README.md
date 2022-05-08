@@ -1,0 +1,4 @@
+
+# Rich Scrapper
+
+This task was quite challenging to me. I started by reading documentation and then I saw youtube videos to understand how exactly scrapping is done. Then I tried to scrape the data with colly framework and I was not able to do that. So I took the entire HTML code and was analysing the DOM structure and still I got only empty csv files as output. I even gave a try to chromedp framework. And then I asked help regarding this in the official group. They suggested me that colly is capable, then one of my friends suggested to read documentations of (geziyor)[https://github.com/geziyor/geziyor]. It had every single detail I needed to scrape data. Then after coding a basic skeleton. I debugged the errors with help of google and documentation. Then finally I was able to get the proper CSV output file😇.
